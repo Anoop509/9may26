@@ -1,5 +1,4 @@
-trigger: 
-  name: none
+trigger: none
 
 pool:
   name: anooppool
