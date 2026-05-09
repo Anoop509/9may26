@@ -16,10 +16,10 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "anooprg" {
   name     = "anooprg"
-  location = "West Europe"
+  location = "Central India"
 }
 resource "azurerm_storage_account" "anoop_sa" {
-  name                     = "anoopsa"
+  name                     = "anoopsa112233445512345"
   resource_group_name      = azurerm_resource_group.anooprg.name
   location                 = azurerm_resource_group.anooprg.location
   account_tier             = "Standard"
