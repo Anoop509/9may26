@@ -29,5 +29,5 @@ steps:
   inputs:
     provider: 'azurerm'
     command: 'apply'
-    commandOptions: '--auto-aaprove'
+    commandOptions: '--auto-approve'
     environmentServiceNameAzureRM: 'anoopconnection'
