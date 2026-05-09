@@ -26,3 +26,8 @@ resource "azurerm_storage_account" "anoop_sa" {
   account_replication_type = "LRS"
   
 }
+
+resource "azurerm_resource_group" "anooprg1" {
+  name     = "anooprg1"
+  location = "Central India"
+}
